@@ -1,5 +1,5 @@
 //your JS code here. If required.
-const student = {
+var student = {
 	name : "JS",
 	city : "Noida",
 	age : 50,
