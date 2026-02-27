@@ -13,7 +13,7 @@
 
 // Create the student object
 const student = {
-  name: "John"
+  name: "Mayur Bhardwaj",
 };
 
 // Function to get all keys from the object
