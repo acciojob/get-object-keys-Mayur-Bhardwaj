@@ -4,6 +4,12 @@ const student = {
   name: "John",
 };
 function getKeys(obj) {
-  return Object.keys(obj);
+  // return Object.keys(obj);
+	let keys = [];
+
+	for(let t in obj){
+		keys.push(t);
+	}
+	return keys;
 }
 console.log(getKeys(student));
